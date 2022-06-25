@@ -8,4 +8,6 @@ function crop() {
   let new_url = "https://source.unsplash.com" + lastpart + "/" + H + "x" + W;
 
   alert(new_url);
+  document.getElementById("pic").src = new_url;
+  document.getElementById("new_url").innerHTML = new_url;
 }
